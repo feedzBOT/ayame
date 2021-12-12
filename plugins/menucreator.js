@@ -42,7 +42,7 @@ let teks = `
 ┃ ❖ _${usedPrefix}twt_ <username>|<tweet> Ⓛ
 ┃ ❖ _${usedPrefix}unsplash_ <keyword> Ⓛ
 ┃ ❖ _${usedPrefix}wink_
-┃ ❖ _${usedPrefix}ytcomment_ <comment> Ⓛ
+┃ ❖ _${usedPrefix}ytcomment_ <error> Ⓛ
 ┗ ┅ ━━━━━━━━━━━━━━━━━━━━ ┅ ━
 `.trim()
   conn.fakeReply(m.chat, teks, '0@s.whatsapp.net', 'Creator And Maker Menu', 'status@broadcast')
