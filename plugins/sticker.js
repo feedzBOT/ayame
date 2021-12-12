@@ -18,13 +18,13 @@ await m.reply(global.wait)
         if (/webp/g.test(mime)) out = await webp2png(img)
         else if (/image/g.test(mime)) out = await uploadImage(img)
         else if (/video/g.test(mime)) out = await uploadFile(img)
-        stiker = await sticker(false, out, '© 百鬼あやめ', '© 赤井はあと')
+        stiker = await sticker(false, out, 'Botti BOT', '© H i - F E 3 D Z')
       } catch (e) {
         console.error(e)
-        stiker = await sticker(img, false, '© 百鬼あやめ', '© 赤井はあと')
+        stiker = await sticker(img, false, 'Botti BOT', '© H i - F E 3 D Z')
       }
     } else if (args[0]) {
-      if (isUrl(args[0])) stiker = await sticker(false, args[0], '© 百鬼あやめ', '© 赤井はあと')
+      if (isUrl(args[0])) stiker = await sticker(false, args[0], 'Botti BOT', '© H i - F E 3 D Z')
       else return m.reply('URL tidak valid!')
     }
   } catch (e) {
