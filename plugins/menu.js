@@ -48,8 +48,8 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
-    let ayame = './src/photo/ItssAyaamee.jpg'
-    let tnbot = fs.readFileSync('./src/photo/NAyame.png')
+    let ayame = './src/photo/hifeedz.jpg'
+    let tnbot = fs.readFileSync('./src/photo/e.png')
     //let { exp, uang, limit, level, role } = global.db.data.users[m.sender]
     //let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let name = conn.getName(m.sender)
