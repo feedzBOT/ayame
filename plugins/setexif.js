@@ -20,8 +20,8 @@ let handler = async (m, { usedPrefix, command, args }) => {
 *Author*: ${stek2}
     `)
         });
-        global.packname = Botti
-        global.author = BOT
+        global.packname = stek1
+        global.author = stek2
     } else {
         m.reply(`Format salah ${usedPrefix + command} <packname>|<owner>`)
     }
