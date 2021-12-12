@@ -12,7 +12,6 @@ Opsi Tersedia:
 • pernikahan
 • kemerdekaan
 
-by Ariffb, thanks to Wildan Izzudin
 https://neoxr-api.herokuapp.com/docs`
     if (!args[0]) throw er
     switch (args[0].toLowerCase()) {
