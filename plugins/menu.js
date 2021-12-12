@@ -8,7 +8,7 @@ const defaultMenu = {
   before: `
 ┏ ┅ ━━ *〘 %me 〙*
 ┇
-┇ _Source_ : https://github.com/Kokoronationz/mirai
+┇ _Source_ : https://github.com/Nurutomo/wabot-aq
 ┣ ┅ ━━━━━━━━
 ┃
 ┃ ⌬ Hai %name!
@@ -21,19 +21,20 @@ const defaultMenu = {
 ┃ ⌬ *Uptime:* _%uptime_ (%muptime)
 ┃ ⌬ *Database:* %rtotalreg of %totalreg
 ┃ ⌬ *Contact:*
-┃     _https://bit.ly/unxzx_
+┃    wa.me/6288705834498
+┃    Instagram.com/hfidzzy_
 ┗ ┅ ━━━━━━━━━━━━━━
 %readmore
 ┏ ┅ ━━ *〘 Big Thanks To 〙*
 ┇
 ┣ ┅ ━━━━━━━━
 ┇
-┃ ⍚ Nurutomo
-┃ ⍚ BochilGaming
-┃ ⍚ Ariffb
-┃ ⍚ Kokoronationz
-┃ ⍚ Unx
-┃ ⍚ Dan Kawan-kawan
+┃ ⍚ NURUTOMO
+┃ ⍚ Adi
+┃ ⍚ Iqbal
+┃ ⍚ Mzailani
+┃ ⍚ Usep
+┃ ⍚ Saya ¯\_(ツ)_/¯
 ┗ ┅ ━━━━━━━━━━━━━━
 `.trimStart(),
   header: '┏ ┅ ━━ *〘 %category 〙*\n┇',
