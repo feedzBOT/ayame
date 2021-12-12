@@ -244,6 +244,14 @@ module.exports = {
           console.error(e)
         }
       }
+      if(enable.nolink && !m.fromMe && m.isGroup && !isAdmin && !isOwner && isBotAdmin) {
+		if (!m.fromMe && m.text.match(/(https:\/\/chat.whatsapp.com)/gi)) {
+            conn.updatePresence(m.chat, Presence.composing) 
+			 conn.reply(m.chat, `*makanya jangan kirim link gc tolol!!!*`, m).then(() => {
+			conn.groupRemove(m.chat, [m.sender])
+			 })
+        }
+     }
       if (m.isBaileys) return
       m.exp += Math.ceil(Math.random() * 10)
 
