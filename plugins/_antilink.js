@@ -2,7 +2,7 @@ let { Presence } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 	if(!args || !args[0]) {
 		await conn.updatePresence(m.chat, Presence.composing) 
-		conn.reply(m.chat, `*Format salah! Contoh :*\n\n	*○ ${usedPrefix + command} on*\n	*○ ${usedPrefix + command} off*`, m)
+		conn.reply(m.chat, `*Format salah! Contoh :*\n\n	*○ !antilink on*\n	*○ !antilink off*`, m)
 	} else if(args[0] == 'on') {
 		let cek = global.DATABASE._data.chats[m.chat].nolink
 	if(cek) return conn.reply(m.chat, `*Anti-Link telah aktif pada grup ini.*`, m)
@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 		conn.reply(m.chat, `*Anti-Link berhasil di nonaktifkan.*`, m)
 	} else {
 		await conn.updatePresence(m.chat, Presence.composing) 
-		conn.reply(m.chat, `*Format salah! Contoh :*\n\n	*○ ${usedPrefix + command} on*\n	*○ ${usedPrefix + command} off*`, m)
+		conn.reply(m.chat, `*Format salah! Contoh :*\n\n	*○ !antilink on*\n	*○ !antilink off*`, m)
 	} 
 }
 handler.help = ['antilink *on / off*']
